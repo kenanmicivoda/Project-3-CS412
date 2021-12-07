@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--
+            Name: Kenan Micivoda
+            Course: CS412 Web Application Development
+            Assignment: Project #3
+            Due date: 07.12.2021. 23:59
+            Purpose: Creating third Project which will represent my CV, using HTML + CSS + JavaScript
+        -->
+        <meta charset="UTF-8">
+        <title>
+            Kenan Micivoda - Project 3 - CS412
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="index.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script> 
+                $(document).ready(function(){
+                $("button").click(function(){
+                $("h1").animate({
+                left: '85%',
+                opacity: '1',
+                height: '5%',
+                width: '10%'
+                });
+                });
+            });
+            </script>
+    </head>
+    <body> 
+        <button class="center" class="button"><b>Welcome!</b></button>
+        <h1 style="height:5%;width:100%;position:absolute;
+        font-family: Copperplate Gothic Light;
+    color: rgb(255, 242, 58);
+    text-decoration: underline;">*** Curriculum Vitae - Kenan Micivoda ***</div>
+        <h1 class="right" style="font-family: Copperplate Gothic Light;
+        color: rgb(255, 242, 58);
+        text-decoration: underline;">
+            <i>*** Curriculum Vitae - Kenan Micivoda ***</i>
+        </h1>
+        <hr>
+        <p>
+            <a href="#About Me">About Me</a> ***
+            <a href="#Education period">Education period</a> ***
+            <a href="#Interests and Skills">Interests and Skills</a> ***
+            <a href="#Languages that I use">Languages that I use</a> ***
+            <a href="#Contact information">Contact information</a> 
+        </p>
+        <hr>
+        <p8 id="demo10" class="center"></p8>
+        
+       
+        <form>
+            Choose a language:
+              <select id="lang" onchange="mf()">
+                <option value="Pick me">Pick Me</option>
+                <option value="English">English</option>
+                <option value="German">German</option>
+                <option value="Bosnian">Bosnian</option>
+              </select>
+             
+            </form>   
+         
+<p7 class="right1">Type in day of the week to see my schedule for that day!</p7>
+<input id="myInput" type="text" class="right1">
+<p7 id="demo7" class="right1"></p7>
+<button1 onclick="myFunction()" class="right1">Go!</button1>
+
+        <a name="About me"><h2 class="center1" style= "font-family: cursive;
+            color: rgb(255, 242, 58)";>* About Me *</h2></a> 
+        <p1 class="center" style="font-family:Gabriola; font-size: 150%;
+        color: white;">
+            <img id="photoOfMe" onclick="changeImage()" src="photo_of_me.jpg" width="100" height="180">
+        <div class="image_description">
+            <br>
+            <p_img class="image_description"><i>Click on my photo, see the magic!</i></p_img>
+        </div>
+            I was born on <i>August 23, 2000</i> in Sarajevo. During my childhood, I was going to <br>
+            kindergarten and playing with friends in the park near home. I finished elementary school, <br>
+            as well as high school. Until now, I am a third year student. In my free time, <br>
+            I like to play guitar, primary bass guitar now. Due to that, I am a part of a band, it's called <acronym title="Monday At Six"><b>MA6</b></acronym>.
+        </p1>
+        <hr>
+        <a name="Education period"><h2 class="center1" style= "font-family: cursive;
+            color: rgb(255, 242, 58)">* Education period *</h2></a>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      
+       
+      <div class="container">
+        <div class="panel panel-default">
+          
+          <div class="panel-body"><p6>
+            <li>
+                <b>2006 - 2015:</b> Elementary School "Musa Cazim Catic" Sarajevo, <i>General department</i>
+            </li>
+            <li>
+                <b>2015 - 2019:</b> High School - Gymnasium "Druga Gimnazija" Sarajevo, <i>Mathematical department</i>
+            </li>
+            <li>
+                <b>2019 - present:</b> <acronym title="International University of Sarajevo">IUS</acronym>, <i>Faculty of Engineering and Natural Sciences</i>, <i>Computer Science and Engineering</i>
+            </li>
+        </p6></div>
+      </div>
+        
+        <!--<p2 class="right1">
+            <ul type="square">
+                <li>
+                    <b>2006 - 2015:</b> Elementary School "Musa Cazim Catic" Sarajevo, <i>General department</i>
+                </li>
+                <li>
+                    <b>2015 - 2019:</b> High School - Gymnasium "Druga Gimnazija" Sarajevo, <i>Mathematical department</i>
+                </li>
+                <li>
+                    <b>2019 - present:</b> <acronym title="International University of Sarajevo">IUS</acronym>, <i>Faculty of Engineering and Natural Sciences</i>, <i>Computer Science and Engineering</i>
+                </li>
+            </ul>
+        </p2> -->
+        <hr>
+        <a name="Interests and Skills"><h2 class="center1" style= "font-family: cursive;
+            color: rgb(255, 242, 58)">* Interests and Skills *</h2></a>
+        <!--<p3>
+            <table class="center1">
+                <tr>
+                    <td>Programming</td>
+                    <td>C, C++, Java, Phyton, Ruby, MathLAB, HTML</td>
+                </tr>
+                <tr>
+                    <td>Playing instruments</td>
+                    <td>Classic, acoustic and bass guitar</td>
+                </tr>
+                <tr>
+                    <td>Performance</td>
+                    <td>Bassist in a music band <acronym title="Monday At Six"><b>MA6</b></acronym></td>
+                </tr>
+                <tr>
+                    <td>Sports</td>
+                    <td>Swimming, football, basketball and volleyball</td>
+                </tr>
+                <tr>
+                    <td>Volunteering</td>
+                    <td>On events and doing an internship</td>
+                </tr>
+                <tr>
+                    <td>Travel</td>
+                    <td>Exploring my homecountry</td>
+                </tr>
+            </table>
+        </p3>-->
+        <p id="demo" style="background-color: rgb(255, 242, 58); font-size: large; font-family: Arial Black;
+        margin: 0; padding: 0; text-align: center;"></p>
+        <p id="demo_1" style="background-color: rgb(255, 242, 58); font-size: large; font-family: Arial Black;
+        margin: 0; padding: 0; text-align: center;"></p>
+        <p id="demo_2" style="background-color: rgb(255, 242, 58); font-size: large; font-family: Arial Black;
+        margin: 0; padding: 0; text-align: center;"></p> 
+        <p id="demo_3" style="background-color: rgb(255, 242, 58); font-size: large; font-family: Arial Black;
+        margin: 0; padding: 0; text-align: center;"></p> 
+        <p id="demo_4" style="background-color: rgb(255, 242, 58); font-size: large; font-family: Arial Black;
+        margin: 0; padding: 0; text-align: center;"></p>
+        <p id="demo_5" style="background-color: rgb(255, 242, 58); font-size: large; font-family: Arial Black;
+        margin: 0; padding: 0; text-align: center;"></p>     
+        <script>
+            let interests_skills = {
+            programming: 'C, C++, Java, Phyton, Ruby, MathLAB, HTML, CSS, JavaScript',
+            playing_instruments: 'Classic, acoustic and bass guitar',
+            performance: 'Bassist in a music band MA6',
+            sports: 'Swimming, football, basketball and volleyball',
+            volunteering: 'On events and doing an internship',
+            travel: 'Exploring my homecountry'
+            };
+        </script>
+        <script>
+            document.getElementById("demo").innerHTML = interests_skills.programming;
+            document.getElementById("demo_1").innerHTML = interests_skills.playing_instruments;
+            document.getElementById("demo_2").innerHTML = interests_skills.performance;
+            document.getElementById("demo_3").innerHTMl = interests_skills.sports;
+            document.getElementById("demo_4").innerHTML = interests_skills.volunteering;
+            document.getElementById("demo_5").innerHTML = interests_skills.travel;
+            </script>
+        <hr>
+        <a name="Languages that I use"><h2 class="center1" style= "font-family: cursive;
+            color: rgb(255, 242, 58)">* Languages that I use *</h2></a>
+        <!--<p4>
+            <ul class="center1">
+                <li>
+                    <b>Bosnian, Croatian, Serbian</b> - <i>native language</i>
+                </li>
+                <li>
+                    <b>English</b> - <i>first learned foreign language</i>
+                </li>
+                <li>
+                    <b>German</b> - <i>second learned foreign language</i>
+                </li>
+                <li>
+                    <b>Turkish</b> - <i>third learned foreign language</i>
+                </li>
+            </ul>
+        </p4>-->
+        <p4 id="demo_6" class="center1" style="font-family: Rockwell;
+        color: white;
+        font-size: 125%;"></p4>
+        <script>
+            const lang = [ "Bosnian, Croatian, Serbian - native language",
+            "English - first learned foreign language", "German- second learned foreign language", "Turkish - third learned foreign language"];
+    
+            let text = "";
+            for (let i = 0; i < lang.length; i++) {
+            text += lang[i] + "<br>";
+            } 
+    
+            document.getElementById("demo_6").innerHTML = text;
+            </script>
+        <hr>
+        <a name="Contact information"><h2 class="center1" style= "font-family: cursive;
+            color: rgb(255, 242, 58)">* Contact information *</h2></a>
+        <!--<p5 class="right1">
+            <b>Kenan Micivoda, Ulica Zmaja od Bosne 10, 71000 Sarajevo</b> <br>
+            <b>Email: </b><a href="kenan.m@hotmail.com">Click here!</a> <br>
+            <b>Phone number: </b><a href="+38761666999">Click here!</a>
+        </p5>-->
+        <p5 id="demo1" class="right1" style="font-family: cursive; color: white; text-align: right;"></p5> <br>
+        <p5 id="demo2" class="right1" style="font-family: cursive; color: white; text-align: right;"></p5> <br>
+        <p5 id="demo3" class="right1" style="font-family: cursive; color: white; text-align: right;"></p5>
+
+        <script>
+            let nameSurname = "Kenan Mičivoda, Ulica Zmaja od Bosne 10, 71000 Sarajevo";
+            let emailInfo  = "Email: kenan.m@hotmail.com";
+            let mail = emailInfo.link("mailto:kenan.m@hotmail.com");
+            let phoneNumber = "Phone number: +38761666999";
+            let phone = phoneNumber.link("tel:+38761666999");
+            document.getElementById("demo1").innerHTML = nameSurname;
+            document.getElementById("demo2").innerHTML = mail;
+            document.getElementById("demo3").innerHTML = phone;
+        </script>
+    </body>
+</html>

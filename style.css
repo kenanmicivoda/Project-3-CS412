@@ -1,0 +1,166 @@
+/*
+            Name: Kenan Micivoda
+            Course: CS412 Web Application Development
+            Assignment: Project #3
+            Due date: 07.12.2021. 23:59
+            Purpose: Creating third Project which will represent my CV, upgrading the first and second one, using JavaScript
+        */
+h1 {
+    font-family: Copperplate Gothic Light;
+    color: rgb(255, 242, 58);
+    text-decoration: underline;
+}
+
+h2 {
+    font-family: cursive;
+    color: rgb(255, 242, 58);
+}
+
+img {
+    width: 25%;
+    height: auto;
+    border-radius: 75%;
+}
+
+p1 {
+    font-family:Gabriola;
+    font-size: 150%;
+    color: white;
+}
+
+p2 {
+    font-family: MV Boli;
+    color: white;
+    font-size: 125%;
+}
+
+p3 {
+    font-family: Bahnschrift SemiBold;
+    color: white;
+    font-size: 140%;
+}
+
+p4 {
+    font-family: Rockwell;
+    color: white;
+    font-size: 125%;
+}
+
+p5 {
+    font-family: cursive;
+    color: white;
+    text-align: right;
+}
+
+.center {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    text-align: center;
+}
+
+.center1 {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+table, tr, td {
+    border: 1px solid rgb(255, 242, 58);
+}
+
+ul {
+    text-align:justify;
+    color:white;
+}
+
+p {
+    background-color: rgb(255, 242, 58);
+    font-size: large;
+    font-family: Arial Black;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    background-image: url("background_css_5.jpg");
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.image_description {
+    text-align: center;
+    font-family: monospace;
+    color: white;
+    font-size:large;
+    width: 100%;
+    background-color: black;
+}
+
+.image_description img {
+    display: -webkit-box;
+    margin: 50 50;
+}
+
+.right {
+    text-align: right;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.right1 {
+    display:table;
+    margin-left: auto;
+    margin-right: right;
+    text-align: right;
+}
+
+button {
+    background-color: rgb(255, 242, 58);
+    font-size: large;
+    font-family: Arial Black;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+button1 {
+    background-color: rgb(255, 242, 58);
+    font-size: large;
+    font-family: Arial Black;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+p6 {
+    font-family: cursive;
+    color: black;
+    text-align: right;
+}
+p7 {
+    font-family: cursive;
+    color: white;
+    text-align: right;
+}
+
+p8 {
+    background-color: red;
+    font-size: x-large;
+    font-family: Arial Black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+form {
+    font-family: cursive;
+    color: black;
+    text-align: left;
+}
